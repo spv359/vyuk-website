@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440">
+<title>Conversational analytics</title>
+<defs>
+  <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3ee"/><stop offset="1" stop-color="#e2ebe3"/></linearGradient>
+  <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#173e42" flood-opacity=".09"/></filter>
+</defs>
+<rect x="1" y="1" width="638" height="438" rx="26" fill="url(#backdrop)" stroke="#dce5dd"/>
+<circle cx="526" cy="113" r="96" fill="#f8faf6" opacity=".65"/>
+
+<rect x="164" y="116" width="388" height="254" rx="20" fill="#fff" stroke="#ccd9d1" filter="url(#shadow)"/>
+<rect x="164" y="116" width="388" height="46" rx="20" fill="#173e42" /><rect x="164" y="140" width="388" height="22" rx="0" fill="#173e42" />
+<circle cx="190" cy="140" r="4" fill="#aec9bd"/><circle cx="205" cy="140" r="4" fill="#aec9bd"/><circle cx="220" cy="140" r="4" fill="#aec9bd"/>
+<rect x="194" y="186" width="123" height="8" rx="4" fill="#dae5dd" /><rect x="194" y="205" width="74" height="6" rx="3" fill="#e9eeea" />
+<path d="M206 325H507" stroke="#c4d3ca" stroke-width="2"/>
+<rect x="238" y="270" width="48" height="55" rx="7" fill="#adc5b7" /><rect x="316" y="244" width="48" height="81" rx="7" fill="#70958c" /><rect x="394" y="218" width="48" height="107" rx="7" fill="#bc4617" />
+<rect x="70" y="57" width="282" height="102" rx="20" fill="#173e42" filter="url(#shadow)"/>
+<path d="M111 153L111 177L143 154" fill="#173e42"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-square" x="94" y="85" aria-hidden="true"><path d="M22 17a2 2 0 0 1-2 2H6.828a2 2 0 0 0-1.414.586l-2.202 2.202A.71.71 0 0 1 2 21.286V5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2z"></path></svg><rect x="149" y="87" width="159" height="10" rx="5" fill="#eef4ef" /><rect x="149" y="112" width="112" height="8" rx="4" fill="#9bb6ad" />
+<circle cx="503" cy="313" r="27" fill="#ffe4d9"/><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#bc4617" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" x="488" y="298" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>
+
+</svg>

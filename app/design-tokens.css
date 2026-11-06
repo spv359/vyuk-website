@@ -1,0 +1,89 @@
+/* Vyuk design system. Edit these values before adding section-specific styles. */
+:root {
+  /* Brand and semantic color roles */
+  --ds-background: #f4f3ee;
+  --ds-surface: #fbfcfa;
+  --ds-surface-raised: #ffffff;
+  --ds-surface-muted: #edf0ea;
+  --ds-ink-surface: #102a2e;
+  --ds-ink-surface-hover: #1a3c40;
+  --ds-text: #14202a;
+  --ds-text-muted: #405457;
+  --ds-text-subtle: #5b706d;
+  --ds-text-inverse: #ffffff;
+  --ds-text-inverse-muted: #d1dfda;
+  --ds-text-inverse-subtle: #a9bdb9;
+  --ds-accent: #cb521e;
+  --ds-accent-action: #bc4617; /* Dark enough for white button labels. */
+  --ds-accent-hover: #a93f13;
+  --ds-accent-on-ink: #ffab89;
+  --ds-accent-soft: #ffe4d9;
+  --ds-divider: #aabbb2;
+  --ds-input-border: #aab6ae;
+  --ds-success: #1f7054;
+  --ds-error: #ad3026;
+
+  /* Typography roles: display, headline, lead, body, caption, label. */
+  --ds-font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --ds-display-size: clamp(2.5rem, 4.2vw, 5rem);
+  --ds-display-line: 1.07;
+  --ds-display-weight: 700;
+  --ds-display-tracking: -.057em;
+  --ds-headline-size: clamp(3rem, 4.15vw, 5.1rem);
+  --ds-headline-line: 1.05;
+  --ds-headline-weight: 680;
+  --ds-headline-tracking: -.06em;
+  --ds-lead-size: clamp(1.08rem, 1.4vw, 1.36rem);
+  --ds-lead-line: 1.5;
+  --ds-body-size: 1.16rem;
+  --ds-body-line: 1.58;
+  --ds-caption-size: .875rem;
+  --ds-caption-weight: 750;
+  --ds-caption-tracking: .1em;
+  --ds-label-size: .94rem;
+
+  /* Layout and controls */
+  --ds-max-header: 90.625rem;
+  --ds-max-section: 85rem;
+  --ds-max-contact: 82.5rem;
+  --ds-section-space: clamp(5rem, 9vw, 8.5rem);
+  --ds-gutter: 2rem;
+  --ds-control-height: 3.5rem;
+  --ds-control-radius: .75rem;
+  --ds-card-radius: 1.375rem;
+  --ds-icon-radius: .875rem;
+  --ds-motion-short: 200ms;
+
+  /* Component library aliases: keep shadcn controls in the same palette. */
+  --background: var(--ds-background);
+  --foreground: var(--ds-text);
+  --card: var(--ds-surface-raised);
+  --card-foreground: var(--ds-text);
+  --popover: var(--ds-surface-raised);
+  --popover-foreground: var(--ds-text);
+  --primary: var(--ds-accent-action);
+  --primary-foreground: var(--ds-text-inverse);
+  --secondary: var(--ds-surface-muted);
+  --secondary-foreground: var(--ds-text);
+  --muted: var(--ds-surface-muted);
+  --muted-foreground: var(--ds-text-muted);
+  --accent: var(--ds-accent-soft);
+  --accent-foreground: var(--ds-text);
+  --destructive: var(--ds-error);
+  --border: #cbd1cb;
+  --input: var(--ds-input-border);
+  --ring: var(--ds-accent-action);
+  --radius: var(--ds-control-radius);
+}
+
+@media (max-width: 900px) {
+  :root { --ds-display-size: clamp(2.1rem, 4.9vw, 3.7rem); }
+}
+
+@media (max-width: 700px) {
+  :root {
+    --ds-display-size: clamp(2.25rem, 8vw, 3.5rem);
+    --ds-headline-size: clamp(2.8rem, 10vw, 4.25rem);
+    --ds-gutter: 1.5rem;
+  }
+}

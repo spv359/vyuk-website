@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440">
+<title>Outlet-specific sales recommendations</title>
+<defs>
+  <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3ee"/><stop offset="1" stop-color="#e2ebe3"/></linearGradient>
+  <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#173e42" flood-opacity=".09"/></filter>
+</defs>
+<rect x="1" y="1" width="638" height="438" rx="26" fill="url(#backdrop)" stroke="#dce5dd"/>
+<circle cx="526" cy="113" r="96" fill="#f8faf6" opacity=".65"/>
+
+<rect x="67" y="131" width="345" height="231" rx="20" fill="#fff" stroke="#ccd9d1" filter="url(#shadow)"/>
+<rect x="87" y="208" width="305" height="133" rx="3" fill="#f5f7f2" />
+<rect x="97" y="224" width="120" height="117" rx="6" fill="#d3e1d8" /><rect x="239" y="225" width="128" height="82" rx="6" fill="#d3e1d8" />
+<path d="M257 235V296M291 235V296M325 235V296" stroke="#fff" stroke-width="3"/>
+<rect x="103" y="97" width="276" height="58" rx="13" fill="#173e42" /><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-store" x="220" y="108" aria-hidden="true"><path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5"></path><path d="M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244"></path><path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05"></path></svg>
+<path d="M80 156H400L411 201H69Z" fill="#70958c"/>
+<path d="M124 156H158L153 201H116Z M202 156H236L236 201H199Z M280 156H314L319 201H282Z M358 156H390L402 201H368Z" fill="#ebf1eb"/>
+<circle cx="194" cy="286" r="4" fill="#173e42"/>
+<rect x="398" y="68" width="165" height="302" rx="28" fill="#173e42" filter="url(#shadow)"/>
+<rect x="409" y="79" width="143" height="278" rx="19" fill="#f9fbf8" /><rect x="456" y="86" width="48" height="7" rx="4" fill="#173e42" />
+<rect x="429" y="117" width="86" height="7" rx="3.5" fill="#c0d2c8" /><rect x="429" y="136" width="58" height="6" rx="3" fill="#e0e9e1" />
+<rect x="423" y="166" width="115" height="141" rx="13" fill="#ffe4d9" />
+<circle cx="480" cy="203" r="22" fill="#fff"/><svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#bc4617" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" x="467" y="190" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>
+<rect x="436" y="241" width="90" height="7" rx="3.5" fill="#bc4617" /><rect x="436" y="260" width="65" height="6" rx="3" fill="#d99e82" /><rect x="436" y="277" width="78" height="6" rx="3" fill="#d99e82" />
+<rect x="447" y="323" width="65" height="6" rx="3" fill="#d0dbd3" />
+
+</svg>

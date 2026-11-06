@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440">
+<title>Accounting workflow with review</title>
+<defs>
+  <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3ee"/><stop offset="1" stop-color="#e2ebe3"/></linearGradient>
+  <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#173e42" flood-opacity=".09"/></filter>
+</defs>
+<rect x="1" y="1" width="638" height="438" rx="26" fill="url(#backdrop)" stroke="#dce5dd"/>
+<circle cx="526" cy="113" r="96" fill="#f8faf6" opacity=".65"/>
+
+<rect x="69" y="92" width="195" height="256" rx="20" fill="#fff" stroke="#ccd9d1" filter="url(#shadow)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="37" height="37" viewBox="0 0 24 24" fill="none" stroke="#173e42" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text" x="94" y="118" aria-hidden="true"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg><rect x="147" y="127" width="86" height="8" rx="4" fill="#bed1c6" />
+<rect x="94" y="182" width="142" height="8" rx="4" fill="#dae5dd" /><rect x="94" y="207" width="115" height="8" rx="4" fill="#dae5dd" /><rect x="94" y="232" width="142" height="8" rx="4" fill="#dae5dd" />
+<path d="M94 269H237" stroke="#d4ded6" stroke-width="2"/><rect x="166" y="292" width="70" height="9" rx="4.5" fill="#72968c" />
+<rect x="377" y="92" width="196" height="256" rx="20" fill="#fff" stroke="#ccd9d1" filter="url(#shadow)"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#173e42" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open" x="405" y="118" aria-hidden="true"><path d="M12 5v16"></path><path d="M20.001 19A2 2 0 0022 17V5a2 2 0 00-1.999-2L16 3.002A5 5 0 0012 5a5 5 0 00-4-2H4a2 2 0 00-2 2v12a2 2 0 001.999 2H8a5 5 0 014 2 5 5 0 014-2z"></path></svg><rect x="457" y="127" width="86" height="8" rx="4" fill="#bed1c6" />
+<rect x="400" y="176" width="150" height="136" rx="10" fill="#f3f7f2" />
+<path d="M452 176V312M400 211H550M400 245H550M400 279H550" stroke="#cfddd2" stroke-width="2"/>
+<rect x="466" y="190" width="64" height="7" rx="3.5" fill="#adc8b8" /><rect x="466" y="225" width="52" height="7" rx="3.5" fill="#adc8b8" /><rect x="466" y="259" width="64" height="7" rx="3.5" fill="#adc8b8" /><rect x="466" y="293" width="46" height="7" rx="3.5" fill="#adc8b8" />
+<path d="M268 222H373" stroke="#9bb6a9" stroke-width="3"/>
+<circle cx="320" cy="222" r="31" fill="#bc4617"/><svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right" x="302" y="204" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+<circle cx="548" cy="326" r="28" fill="#ffe4d9"/><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#bc4617" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" x="533" y="311" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>
+
+</svg>

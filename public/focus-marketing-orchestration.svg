@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="440" viewBox="0 0 640 440">
+<title>Coordinated digital marketing</title>
+<defs>
+  <linearGradient id="backdrop" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#edf3ee"/><stop offset="1" stop-color="#e2ebe3"/></linearGradient>
+  <filter id="shadow" x="-25%" y="-25%" width="150%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#173e42" flood-opacity=".09"/></filter>
+</defs>
+<rect x="1" y="1" width="638" height="438" rx="26" fill="url(#backdrop)" stroke="#dce5dd"/>
+<circle cx="526" cy="113" r="96" fill="#f8faf6" opacity=".65"/>
+
+<path d="M294 222H212Q178 222 178 180V123H141M351 222H465Q485 222 485 174V129M319 260V329" fill="none" stroke="#9bb6a9" stroke-width="3" stroke-linecap="round"/>
+<rect x="73" y="74" width="142" height="100" rx="20" fill="#fff" stroke="#ccd9d1" filter="url(#shadow)"/><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#173e42" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-file-text" x="124" y="102" aria-hidden="true"><path d="M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"></path><path d="M14 2v5a1 1 0 0 0 1 1h5"></path><path d="M10 9H8"></path><path d="M16 13H8"></path><path d="M16 17H8"></path></svg>
+<rect x="429" y="74" width="142" height="100" rx="20" fill="#fff" stroke="#ccd9d1" filter="url(#shadow)"/><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#173e42" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail" x="480" y="102" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
+<rect x="250" y="314" width="142" height="92" rx="20" fill="#fff" stroke="#ccd9d1" filter="url(#shadow)"/><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#173e42" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mouse-pointer-click" x="301" y="340" aria-hidden="true"><path d="M14 4.1 12 6"></path><path d="m5.1 8-2.9-.8"></path><path d="m6 12-1.9 2"></path><path d="M7.2 2.2 8 5.1"></path><path d="M9.037 9.69a.498.498 0 0 1 .653-.653l11 4.5a.5.5 0 0 1-.074.949l-4.349 1.041a1 1 0 0 0-.74.739l-1.04 4.35a.5.5 0 0 1-.95.074z"></path></svg>
+<circle cx="320" cy="225" r="78" fill="#fff" stroke="#ccd9d1" filter="url(#shadow)"/>
+<circle cx="320" cy="225" r="62" fill="#173e42"/><svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-megaphone" x="288" y="193" aria-hidden="true"><path d="M11 6a13 13 0 0 0 8.4-2.8A1 1 0 0 1 21 4v12a1 1 0 0 1-1.6.8A13 13 0 0 0 11 14H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2z"></path><path d="M6 14a12 12 0 0 0 2.4 7.2 2 2 0 0 0 3.2-2.4A8 8 0 0 1 10 14"></path><path d="M8 6v8"></path></svg>
+<circle cx="379" cy="176" r="21" fill="#bc4617"/><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check" x="367" y="164" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg>
+
+</svg>

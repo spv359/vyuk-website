@@ -1,0 +1,17 @@
+{
+  "$schema": "../../node_modules/wrangler/config-schema.json",
+  "name": "vyuk-website-enquiries",
+  "main": "worker.mjs",
+  "compatibility_date": "2026-10-30",
+  "vars": {
+    "SITE_ORIGIN": "https://REPLACE_WITH_YOUR_GITHUB_USERNAME.github.io"
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "vyuk-website-enquiries",
+      "database_id": "REPLACE_WITH_YOUR_OWN_D1_DATABASE_ID",
+      "migrations_dir": "../../drizzle"
+    }
+  ]
+}

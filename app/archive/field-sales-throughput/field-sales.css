@@ -1,0 +1,97 @@
+/* Sales case study, using the shared Vyuk design tokens. */
+.sales-page .sales-hero-figure { margin: clamp(38px, 5.2vw, 68px) 0 0; }
+.sales-hero-desktop { display: block; width: 100%; height: auto; border-radius: var(--ds-card-radius); box-shadow: 0 18px 45px rgba(16,42,46,.1); }
+.sales-hero-art { position: relative; isolation: isolate; overflow: hidden; }
+.sales-hero-original { display: block; width: 100%; height: auto; }
+.sales-hero-motion { position: absolute; inset: 0; display: block; width: 100%; height: 100%; pointer-events: none; }
+.sales-hero-question-layer { opacity: 0; }
+.sales-hero-art[data-question-ready="true"] .sales-hero-question-layer { opacity: 1; }
+.sales-hero-question { transform-origin: 0 0; transform-box: view-box; animation: sales-question-shake 4.6s linear infinite; animation-play-state: paused; }
+.sales-hero-art[data-running="true"][data-question-ready="true"] .sales-hero-question { animation-play-state: running; }
+/* A sharp, short burst of uncertainty, followed by a longer reading pause. */
+@keyframes sales-question-shake {
+  0%, 10%, 34%, 100% { transform: translate(0, 0) rotate(0); }
+  12% { transform: translate(-8px, 2px) rotate(-1.3deg); }
+  14% { transform: translate(10px, -3px) rotate(1.7deg); }
+  16% { transform: translate(-10px, -1px) rotate(-1.8deg); }
+  18% { transform: translate(8px, 4px) rotate(1.5deg); }
+  20% { transform: translate(-7px, -3px) rotate(-1.4deg); }
+  22% { transform: translate(9px, 2px) rotate(1.6deg); }
+  24% { transform: translate(-6px, 3px) rotate(-1.1deg); }
+  26% { transform: translate(5px, -2px) rotate(.9deg); }
+  28% { transform: translate(-4px, 1px) rotate(-.7deg); }
+  30% { transform: translate(2px, -1px) rotate(.4deg); }
+  32% { transform: translate(0, 0) rotate(0); }
+}
+.sales-hero-sweep { opacity: 0; }
+.sales-hero-art[data-running="true"] .sales-hero-sweep { opacity: 1; }
+.sales-hero-sweep-trail { animation: sales-hero-sweep 12s linear infinite; animation-play-state: paused; }
+.sales-hero-art[data-running="true"] .sales-hero-sweep-trail { animation-play-state: running; }
+@keyframes sales-hero-sweep { from { stroke-dashoffset: 0; } to { stroke-dashoffset: -1000; } }
+@media (prefers-reduced-motion: reduce) { .sales-hero-motion { display: none; } .sales-hero-sweep-trail, .sales-hero-question { animation: none; } }
+.sales-hero-figure figcaption { margin-top: 14px; color: var(--ds-text-subtle); font-size: .875rem; line-height: 1.4; }
+.sales-hero-mobile { display: none; }
+.sales-approach { background: var(--ds-surface); }
+/* Keep the first text lines aligned in the three heading-and-copy pairs. */
+.sales-challenge .project-section-heading,
+.sales-approach .project-section-heading,
+.sales-feedback .project-section-heading { align-items: start; align-items: first baseline; }
+.sales-card-icon { flex: none; color: var(--ds-accent-action); }
+.sales-flow-marker { display: flex; align-items: center; gap: 12px; min-height: 24px; }
+.sales-flow-motion > li { position: relative; }
+.sales-flow-sweep-line { position: absolute; top: -2px; left: 0; right: 0; height: 2px; overflow: hidden; pointer-events: none; opacity: 0; }
+.sales-flow-motion[data-running="true"] .sales-flow-sweep-line { opacity: 1; }
+.sales-flow-sweep-line::after { content: ""; display: block; width: 25%; height: 100%; background: linear-gradient(90deg, transparent, #ffc27c 30%, #fff5d8 50%, #ffc27c 70%, transparent); animation: sales-flow-line-sweep 9s linear infinite both; animation-play-state: paused; }
+.sales-flow-motion[data-running="true"] .sales-flow-sweep-line::after { animation-play-state: running; }
+.sales-flow-motion > li:nth-child(2) .sales-flow-sweep-line::after { animation-delay: 3s; }
+.sales-flow-motion > li:nth-child(3) .sales-flow-sweep-line::after { animation-delay: 6s; }
+/* One three-second pass per line, then the nine-second sequence repeats. */
+@keyframes sales-flow-line-sweep {
+  0% { opacity: 1; transform: translateX(-100%); }
+  33.3333% { opacity: 1; transform: translateX(400%); }
+  33.3334%, 100% { opacity: 0; transform: translateX(400%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .sales-flow-sweep-line { display: none; }
+  .sales-flow-sweep-line::after { animation: none; }
+}
+.sales-metric-value { display: flex; align-items: center; justify-content: space-between; gap: 20px; }
+.sales-page .sales-metric-detail { margin: 0; color: var(--ds-text-subtle); font-size: .9rem; line-height: 1.4; }
+.sales-analysis-scope { margin: 35px 0 0; color: var(--ds-text-subtle); font-size: .9rem; line-height: 1.5; }
+.sales-page .sales-evidence-note { margin-top: 45px; }
+.sales-feedback-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(24px, 4vw, 60px); margin-top: clamp(45px, 6vw, 75px); }
+.sales-feedback-card { padding: 30px 0 0; border-top: 2px solid var(--ds-accent); }
+.sales-feedback-card .project-kicker { margin-bottom: 25px; font-size: .78rem; line-height: 1.5; }
+.sales-feedback-card h3 { max-width: 520px; margin: 0 0 20px; font-size: clamp(1.7rem, 2.4vw, 2.5rem); line-height: 1.15; font-weight: 650; letter-spacing: -.045em; }
+.sales-feedback-card > p:last-child { max-width: 520px; margin: 0; color: var(--ds-text-muted); font-size: 1.08rem; line-height: 1.6; }
+.sales-rollout { background: var(--ds-ink-surface); color: var(--ds-text-inverse); }
+.sales-rollout-inner { display: grid; grid-template-columns: minmax(0, 1.3fr) minmax(220px, .7fr); align-items: center; gap: clamp(40px, 7vw, 100px); }
+.sales-rollout .project-kicker { color: var(--ds-accent-on-ink); }
+.sales-rollout h2 { max-width: 800px; margin: 0; font-size: var(--ds-headline-size); line-height: var(--ds-headline-line); font-weight: var(--ds-headline-weight); letter-spacing: var(--ds-headline-tracking); }
+.sales-rollout-inner > div:first-child > p:last-child { max-width: 650px; margin: 28px 0 0; color: var(--ds-text-inverse-muted); font-size: var(--ds-body-size); line-height: var(--ds-body-line); }
+.sales-rollout-number { padding-left: clamp(24px, 4vw, 60px); border-left: 1px solid rgba(209,223,218,.35); }
+.sales-rollout-value { display: flex; align-items: center; gap: 24px; color: var(--ds-accent-on-ink); }
+.sales-rollout-number strong { display: block; color: var(--ds-accent-on-ink); font-size: clamp(5.5rem, 9vw, 9rem); line-height: 1; font-weight: 660; letter-spacing: -.075em; }
+.sales-rollout-number span { display: block; max-width: 260px; margin-top: 24px; color: var(--ds-text-inverse-muted); font-size: 1.05rem; line-height: 1.5; }
+@media (max-width: 900px) {
+  .sales-challenge .project-section-heading,
+  .sales-approach .project-section-heading,
+  .sales-feedback .project-section-heading { align-items: start; }
+  .sales-page .project-section-heading > div h2 { max-width: 750px; }
+  .sales-rollout-inner { grid-template-columns: minmax(0, 1fr); gap: 45px; }
+  .sales-rollout-number { padding: 28px 0 0; border-left: 0; border-top: 1px solid rgba(209,223,218,.35); }
+}
+@media (max-width: 700px) {
+  .sales-hero-desktop { display: none; }
+  .sales-hero-mobile { display: grid; gap: 20px; }
+  .sales-mobile-headline { margin: 0 0 8px; color: var(--ds-text); font-size: clamp(1.7rem, 7vw, 2.4rem); line-height: 1.13; font-weight: 700; letter-spacing: -.04em; }
+  .sales-mobile-headline span { color: var(--ds-accent-action); }
+  /* The two scenes use the same approved image, framed separately on phones. */
+  .sales-mobile-scene { position: relative; aspect-ratio: 804 / 710; overflow: hidden; border-radius: var(--ds-control-radius); }
+  .sales-mobile-scene img { position: absolute; width: 207.96%; max-width: none; height: auto; top: -28.73%; left: -2.985%; }
+  .sales-mobile-scene--before .sales-hero-motion { width: 207.96%; height: auto; top: -28.73%; left: -2.985%; right: auto; bottom: auto; }
+  .sales-mobile-scene--with img { left: -105%; }
+  .sales-feedback-grid { grid-template-columns: minmax(0, 1fr); gap: 38px; }
+  .sales-feedback-card { padding-top: 25px; }
+  .sales-feedback-card > p:last-child { font-size: 1.03rem; }
+}

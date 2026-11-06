@@ -1,0 +1,36 @@
+{
+  "source_version": 65,
+  "source_commit": "344f253550271366dbc1a72c79c3e96702c3f28d",
+  "static_builds": [
+    {
+      "basePath": "",
+      "siteOrigin": "https://vyukai.in",
+      "enquiryApiConfigured": true,
+      "outputDirectory": "out/github-pages",
+      "originalSourceVersion": 65,
+      "routes_checked": 9,
+      "local_links_checked": 284,
+      "assets_checked": 35,
+      "formation_brand_verified": true,
+      "form_endpoint_embedding_verified": true
+    },
+    {
+      "basePath": "/vyuk-website",
+      "siteOrigin": "https://vyuk-preview.github.io",
+      "enquiryApiConfigured": true,
+      "outputDirectory": "out/github-pages",
+      "originalSourceVersion": 65,
+      "routes_checked": 9,
+      "local_links_checked": 284,
+      "assets_checked": 35,
+      "formation_brand_verified": true,
+      "form_endpoint_embedding_verified": true
+    }
+  ],
+  "enquiry_worker_tests": {
+    "passed": 6,
+    "failed": 0,
+    "test_database": "in-memory stub"
+  },
+  "scope": "Local build and contract checks. GitHub Pages, Cloudflare and domain setup are launch steps."
+}
